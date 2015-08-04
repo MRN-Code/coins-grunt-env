@@ -1,0 +1,24 @@
+{
+  "name": "coins-grunt-env",
+  "version": "1.0.0",
+  "description": "packaged grunt-env configuration, consumable by many coins-* projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MRN-Code/coins-grunt-env.git"
+  },
+  "keywords": [
+    "coins",
+    "grunt",
+    "env"
+  ],
+  "author": "cdaringe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MRN-Code/coins-grunt-env/issues"
+  },
+  "homepage": "https://github.com/MRN-Code/coins-grunt-env#readme"
+}
