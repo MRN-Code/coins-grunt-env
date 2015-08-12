@@ -9,3 +9,21 @@ But why duplicate more than we have to?  This simple exported config enables us,
 'use strict';
 module.exports = require('coins-grunt-env');
 ```
+
+What's in 'coins-grunt-env'?
+```js
+module.exports = {
+    development: {
+        NODE_ENV: 'development',
+        COINS_ENV: 'development'
+    },
+    staging: {
+        NODE_ENV: 'staging',
+        COINS_ENV: 'staging'
+    },
+    production: {
+        NODE_ENV: 'production',
+        COINS_ENV: 'production'
+    }
+};
+```

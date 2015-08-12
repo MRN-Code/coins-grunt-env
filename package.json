@@ -1,6 +1,6 @@
 {
   "name": "coins-grunt-env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "packaged grunt-env configuration, consumable by many coins-* projects",
   "main": "index.js",
   "scripts": {
