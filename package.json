@@ -4,7 +4,10 @@
   "description": "packaged grunt-env configuration, consumable by many coins-* projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preversion": "git checkout master && git pull && npm ls",
+    "publish-patch": "npm run preversion && npm version patch && git push origin master --tags && npm publish",
+    "publish-minor": "npm run preversion && npm version minor && git push origin master --tags && npm publish",
+    "publish-major": "npm run preversion && npm version major && git push origin master --tags && npm publish"
   },
   "repository": {
     "type": "git",
